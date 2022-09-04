@@ -18,3 +18,18 @@ code {
   background-color: rgb(181, 120, 194);
   
 }
+
+col {
+  align-items: center;
+}
+.aboutMeImg {
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 300px;
+  align-content: center;
+  
+}
+
+.about-carrousel {
+  background-color: darkcyan  ;
+}

@@ -7,7 +7,7 @@ import { Aboutme } from './front/components/Aboutme';
 function App() {
   return (
     <div className="App">
-      <Aboutme/>
+      <Aboutme className="about-carrousel"/>
      
     </div>
   );
