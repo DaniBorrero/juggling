@@ -1,15 +1,14 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import meDeveloper from '../imagen/52356194.jpeg'
 
-export const AboutMeCard = () => {
+export const AboutMeCard = (props) => {
   return (
     <>
-        <Row>
+        <Row className="container m-5">
             <Col>
             <img
                 className="d-block w-100 aboutMeImg m-5"
-                src={meDeveloper}
+                src={props.src}
                 alt="First slide"
                 />
             </Col>

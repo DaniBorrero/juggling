@@ -18,7 +18,7 @@ export const Navheader = () => {
               height="30"
               className="d-inline-block align-top text-white "
             />{' '}
-            Daniel Borrero
+            <a>Daniel Borrero</a>
           </Navbar.Brand>
         </Container>
       </Navbar>

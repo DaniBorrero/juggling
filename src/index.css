@@ -1,35 +1,45 @@
-
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #ADE3DA;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-95deg, #252424, #3b2d32, #404041, #0f1312);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
+
+
 
 .navbar {
-  background-color: rgb(181, 120, 194);
-  
+  background-color: rgb(0, 0, 0);
+  opacity: 90%;  
 }
 
-col {
-  align-items: center;
-}
+
 .aboutMeImg {
   border-radius: 50%;
   overflow: hidden;
+	border: 6px solid whitesmoke;
   max-width: 300px;
   align-content: center;
-  
+  filter: grayscale();
 }
-
-.about-carrousel {
-  background-color: darkcyan  ;
+.aboutMeImg:hover {
+  filter: none;
+  transform: scale(0.9);
+  border: 6px solid rgb(196, 171, 102);
+  transition: all 0.4s ease-in-out;
 }
