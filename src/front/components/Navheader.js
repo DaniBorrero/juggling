@@ -16,7 +16,7 @@ export const Navheader = () => {
               src={logo}
               width="30"
               height="30"
-              className="d-inline-block align-top text-white "
+              className="d-inline-block align-top "
             />{' '}
             Daniel Borrero
           </Navbar.Brand>

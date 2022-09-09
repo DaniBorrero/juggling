@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Aboutme className="about-carrousel"/>
       
-      <Skills className="m-5"/>
-      <Footer />
+      <Skills/>
+      <Footer className="footer-style" />
      
     </div>
   );

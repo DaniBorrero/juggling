@@ -12,7 +12,7 @@ export const AboutMeCard = (props) => {
                 alt="First slide"
                 />
             </Col>
-            <Col className='text-white'>
+            <Col>
                 <h3>First slide label</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Col>

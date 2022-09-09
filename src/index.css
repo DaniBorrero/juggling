@@ -1,84 +1,98 @@
 body {
 	margin: 0;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	font-family: "Exo", sans-serif;
 	color: rgb(0, 0, 0);
-	background: linear-gradient(-95deg, #252424, #d36e92, #7272cf, #72dac0);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-
-.navbar {
-  background-color: rgb(0, 0, 0);
-  opacity: 90%;  
-}
-
-
-.aboutMeImg {
-  border-radius: 50%;
-  overflow: hidden;
-	border: 6px solid whitesmoke;
-  max-width: 300px;
-  align-content: center;
-  filter: grayscale();
-}
-.aboutMeImg:hover {
-  filter: none;
-  transform: scale(0.9);
-  border: 6px solid rgb(196, 171, 102);
-  transition: all 0.4s ease-in-out;
-}
-
-.row-style {
-	background: rgba(212, 33, 33, 0.5);
-	padding: 50px;
-}
-
-.icons-style {
-	font-size: 70px;
-	color: darkgrey;
-	margin: 5px;
-	border-radius: 50%;
-	
-}
-
-.icons-style:hover{
-	color: rgb(255, 255, 255);
-	scale: 1.3;
-}
-
-
-.row-footer {
+	/* background: linear-gradient(-95deg, #252424, #d36e92, #7272cf, #72dac0); */
 	background-image: url('https://www.bakermckenzie.com/-/media/images/locations/venezuela1.jpg?sc_lang=es');
-	color: rgb(255, 148, 148);
-	text-decoration: solid;
-	padding: 50px;
 	
-	
-}
-
-.contact-list  {
-	
-	background-color: rgba(0,0,0, 0.5);
-	
-	font-size: 70px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* animation: gradientBG 15s ease infinite; */
 }
 
 ul {
 	list-style-type: none;
 }
+
+/* @keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+.about-carrousel  {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5) ;
+	
+}
+
+
+
+.navbar {
+	background-color: rgb(0, 0, 0);
+	opacity: 90%;
+}
+
+
+.aboutMeImg {
+	border-radius: 50%;
+	
+	overflow: hidden;
+	border: 3px solid rgb(0, 0, 0);
+	max-width: 300px;
+	
+	filter: grayscale();
+}
+
+.aboutMeImg:hover {
+	filter: none;
+	transform: scale(0.9);
+	border: 6px solid ºrgb(36, 0, 136);
+	transition: all 0.4s ease-in-out;
+}
+
+.row-style {
+	height: auto;
+	color: rgb(0, 0, 0); 
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.5) ;
+}
+
+.icons-style {
+	font-size: 70px;
+	margin: 5px;
+	border-radius: 50%;
+
+}
+
+.icons-style:hover {
+	color: rgb(0, 0, 0);
+	scale: 1.3;
+}
+
+
+.row-footer {
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0) ;
+	text-decoration: solid;
+	padding: 50px;
+
+
+}
+
+.contact-list {
+	font-size: 50px;
+}
+
