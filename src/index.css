@@ -3,8 +3,8 @@ body {
 	width: 100%;
 	height: 100vh;
 	font-family: "Exo", sans-serif;
-	color: #fff;
-	background: linear-gradient(-95deg, #252424, #3b2d32, #404041, #0f1312);
+	color: rgb(0, 0, 0);
+	background: linear-gradient(-95deg, #252424, #d36e92, #7272cf, #72dac0);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -43,3 +43,28 @@ body {
   border: 6px solid rgb(196, 171, 102);
   transition: all 0.4s ease-in-out;
 }
+
+.row-style {
+	background: rgba(212, 33, 33, 0.5);
+	margin: 5px;
+	padding: 50px;
+}
+
+.icons-style {
+	font-size: 100px;
+	color: darkgrey;
+	margin: 5px;
+	border-radius: 50%;
+	
+}
+
+.icons-style:hover{
+	
+	color: rgb(255, 255, 255);
+	transform: rotate(360deg);
+	scale: 1.3;
+	-webkit-transition: -webkit-transform .6s ease-in;
+
+	
+}
+
